@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^(index|all_post|all_comment|admin_category|user|profile)$ $1.php [NC,L]
+
+RewriteRule ^post/(\d+)$ post.php?p_id=$1 [NC,L]
+
+RewriteRule ^all_post/(\d+)$ all_post.php?source=$1 [NC,L]
+RewriteRule ^all_post/add_post$ all_post.php?source=add_post [NC,L]
+RewriteRule ^user/add_user$ user.php?source=add_user [NC,L]
+
+RewriteRule ^index/(\d+)$ index.php?page=$1 [NC,L]

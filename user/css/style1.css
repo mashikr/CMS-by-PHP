@@ -1,0 +1,69 @@
+#load-screen {
+background: url(../../images/header-back.png);
+position: fixed;
+z-index: 10000;
+top:0px;
+width: 100%;
+height: 1600px;
+
+}
+
+
+#loading {
+width: 500px;
+height: 500px;
+margin: 10% auto;
+background: url(../../images/loader.gif);
+background-size: 40%;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.card-img{width:100%;border-radius:calc(.25rem - 1px)}
+.link{
+	width: 50%;
+	float:left;
+	text-align:center;
+}
+
+
+@media only screen and (max-width: 1200px){
+	#post-table{
+		display:none;
+	}
+}
+@media only screen and (min-width: 1199px){
+	#post-card{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 699px){
+	#user-card{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	#user-table{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 1149px){
+	#comment-card{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 1150px){
+	#comment-table{
+		display:none;
+	}
+}
+
+
+
+
+
+
